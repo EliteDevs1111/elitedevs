@@ -1,0 +1,7 @@
+primary #2b2c2e
+secondary #f7f5ff
+accent #73ded9
+
+
+text black #000000
+text white #f8f7ff

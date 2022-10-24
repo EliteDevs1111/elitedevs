@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+    <script src="../static/index.js"></script>
+    <link rel="stylesheet" href="../static/index.css">
+    <link rel="shortcut icon" href="../static/images/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url_for('static/images',filename='logo.svg')}}" type="image/x-icon">
     <title>EliteDevs</title>
 </head>
 <body>
-    <h1>Hello, {{username.name}}</h1>
+    <div class="navbar-container">
+        <div class="navbar">
+            <img src="../static/images/logo.svg" alt="logo" class="logo">
+
+            <div class="links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

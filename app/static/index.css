@@ -1,0 +1,44 @@
+:root{
+    --primary-col : #2b2c2e;
+    --secondary-col : #f7f5ff;
+    --accent-col : #73ded9;
+
+    --text-col-b : #000000;
+    --text-col-w : #f8f7ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    background-color: var(--primary-col);
+}
+
+.logo{
+    width: 40px;
+}
+
+
+.navbar{
+    padding: 10px;
+    width: 100%;
+    /* height: 3rem; */
+    /* background-color: #f8f8f800; */
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+}
